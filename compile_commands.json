@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/ubuntu_admin/local_repos/TetrisML_ModernCPP/out/build/linux-gcc-debug",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -I/home/ubuntu_admin/local_repos/TetrisML_ModernCPP/out/build/linux-gcc-debug/configured_files/include -isystem /home/ubuntu_admin/.conan/data/docopt.cpp/0.6.3/_/_/package/a16cd4cc16fd73821dc08bebe2bb68c62e7143b2/include -isystem /home/ubuntu_admin/.conan/data/fmt/8.1.1/_/_/package/c5ca5975e424af3fd95c5c80557d11785c473d7d/include -isystem /home/ubuntu_admin/.conan/data/spdlog/1.10.0/_/_/package/f774e2f51b8dff5860fe7bcccd8d531f1bd1767b/include -g -fdiagnostics-color=always -fsanitize=address,undefined -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wmisleading-indentation -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wuseless-cast -Werror -std=c++2a -o src/CMakeFiles/intro.dir/main.cpp.o -c /home/ubuntu_admin/local_repos/TetrisML_ModernCPP/src/main.cpp",
+  "file": "/home/ubuntu_admin/local_repos/TetrisML_ModernCPP/src/main.cpp"
+},
+{
+  "directory": "/home/ubuntu_admin/local_repos/TetrisML_ModernCPP/out/build/linux-gcc-debug",
+  "command": "/usr/bin/g++ -isystem /home/ubuntu_admin/.conan/data/catch2/2.13.8/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include -g -fdiagnostics-color=always -fsanitize=address,undefined -std=c++2a -o test/CMakeFiles/catch_main.dir/catch_main.cpp.o -c /home/ubuntu_admin/local_repos/TetrisML_ModernCPP/test/catch_main.cpp",
+  "file": "/home/ubuntu_admin/local_repos/TetrisML_ModernCPP/test/catch_main.cpp"
+},
+{
+  "directory": "/home/ubuntu_admin/local_repos/TetrisML_ModernCPP/out/build/linux-gcc-debug",
+  "command": "/usr/bin/g++ -isystem /home/ubuntu_admin/.conan/data/catch2/2.13.8/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include -g -fdiagnostics-color=always -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wmisleading-indentation -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wuseless-cast -Werror -fsanitize=address,undefined -std=c++2a -o test/CMakeFiles/tests.dir/tests.cpp.o -c /home/ubuntu_admin/local_repos/TetrisML_ModernCPP/test/tests.cpp",
+  "file": "/home/ubuntu_admin/local_repos/TetrisML_ModernCPP/test/tests.cpp"
+},
+{
+  "directory": "/home/ubuntu_admin/local_repos/TetrisML_ModernCPP/out/build/linux-gcc-debug",
+  "command": "/usr/bin/g++ -isystem /home/ubuntu_admin/.conan/data/catch2/2.13.8/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include -g -fdiagnostics-color=always -fsanitize=address,undefined -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wmisleading-indentation -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wuseless-cast -Werror -std=c++2a -o test/CMakeFiles/constexpr_tests.dir/constexpr_tests.cpp.o -c /home/ubuntu_admin/local_repos/TetrisML_ModernCPP/test/constexpr_tests.cpp",
+  "file": "/home/ubuntu_admin/local_repos/TetrisML_ModernCPP/test/constexpr_tests.cpp"
+},
+{
+  "directory": "/home/ubuntu_admin/local_repos/TetrisML_ModernCPP/out/build/linux-gcc-debug",
+  "command": "/usr/bin/g++ -DCATCH_CONFIG_RUNTIME_STATIC_REQUIRE -isystem /home/ubuntu_admin/.conan/data/catch2/2.13.8/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include -g -fdiagnostics-color=always -fsanitize=address,undefined -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wmisleading-indentation -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wuseless-cast -Werror -std=c++2a -o test/CMakeFiles/relaxed_constexpr_tests.dir/constexpr_tests.cpp.o -c /home/ubuntu_admin/local_repos/TetrisML_ModernCPP/test/constexpr_tests.cpp",
+  "file": "/home/ubuntu_admin/local_repos/TetrisML_ModernCPP/test/constexpr_tests.cpp"
+}
+]

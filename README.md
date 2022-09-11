@@ -11,6 +11,10 @@ LGTM Has to be set up manually after template is created:
 ## About TetrisML_ModernCPP
 My TetrisML but in modern cpp
 
+## Using clangd
+
+- If for some reason, CMake doesn't produce `compile_command.json`, run `copy-compile-command` from CMake as a target.
+
 
 ## More Details
 

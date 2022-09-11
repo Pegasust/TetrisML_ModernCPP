@@ -9,6 +9,10 @@ set(CMAKE_CXX_STANDARD 20)
 # when compiling with PCH enabled
 set(CMAKE_CXX_EXTENSIONS OFF)
 
+# Generates a compile_commands.json. We do this instead of symlink so that
+# clangd will always use the latest target in case we switch compiling target
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 # Note: by default ENABLE_DEVELOPER_MODE is True
 # This means that all analysis (sanitizers, static analysis)
 # is enabled and all warnings are treated as errors
@@ -144,3 +148,11 @@ set(CPACK_PACKAGE_FILE_NAME
 )
 
 include(CPack)
+
+# Copy to source directory
+add_custom_target(
+    copy-compile-commands ALL
+    ${CMAKE_COMMAND} -E copy_if_different
+        ${CMAKE_BINARY_DIR}/compile_commands.json
+        ${CMAKE_CURRENT_LIST_DIR}
+    )
