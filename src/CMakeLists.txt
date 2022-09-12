@@ -1,3 +1,5 @@
+add_subdirectory(xstd)
+add_subdirectory(backend)
 find_package(fmt CONFIG)
 find_package(spdlog CONFIG)
 find_package(docopt CONFIG)
